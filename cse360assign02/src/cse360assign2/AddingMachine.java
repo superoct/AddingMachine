@@ -21,8 +21,9 @@ public class AddingMachine {
 	 * 
 	 * @return
 	 */
-	public int getTotal () {
-		return 0;
+	public int getTotal () 
+	{
+		return total;
 	}
 	
 	/**
