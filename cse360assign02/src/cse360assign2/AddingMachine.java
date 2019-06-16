@@ -29,8 +29,9 @@ public class AddingMachine {
 	 * 
 	 * @param value
 	 */
-	public void add (int value) {
-		
+	public void add (int value) 
+	{
+		total = total + value;
 	}
 	
 	/**
