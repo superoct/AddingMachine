@@ -27,19 +27,21 @@ public class AddingMachine {
 	}
 	
 	/**
-	 * 
+	 * The add function will the value will the total
 	 * @param value the number that it will add
 	 */
-	public void add (int value) {
-		
+	public void add (int value) 
+	{
+		total = total + value;
 	}
 	
 	/**
-	 * 
+	 * The subtract function will subtract the value from the total
 	 * @param value the number that it will subtract
 	 */
-	public void subtract (int value) {
-		
+	public void subtract (int value) 
+	{
+		total = total - value;
 	}
 	
 	/**
