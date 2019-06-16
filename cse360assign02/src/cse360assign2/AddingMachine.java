@@ -19,11 +19,11 @@ public class AddingMachine {
 	}
 	
 	/**
-	 * 
+	 * The getTotal function returns the current total
 	 * @return the total of the adding machine
 	 */
 	public int getTotal () {
-		return 0;
+		return total;
 	}
 	
 	/**
