@@ -38,8 +38,9 @@ public class AddingMachine {
 	 * 
 	 * @param value
 	 */
-	public void subtract (int value) {
-		
+	public void subtract (int value) 
+	{
+		total = total - value;
 	}
 		
 	/**
