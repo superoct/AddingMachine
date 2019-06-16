@@ -1,12 +1,11 @@
 package cse360assign2;
-
 /**
  * 
  * @author Octavio Gonzalez
- * Assignment # 2
- * This class will add and subtract numbers and print the order of the operation.
- *
+ * Assignment 2
+ * This class is a machine that adds and subtracts numbers
  */
+
 public class AddingMachine {
 
 	private int total;
@@ -19,31 +18,29 @@ public class AddingMachine {
 	}
 	
 	/**
-	 * The getTotal function returns the current total
-	 * @return the total of the adding machine
+	 * 
+	 * @return
 	 */
 	public int getTotal () {
-		return total;
+		return 0;
 	}
 	
 	/**
-	 * The add function will the value will the total
-	 * @param value the number that it will add
+	 * 
+	 * @param value
 	 */
-	public void add (int value) 
-	{
-		total = total + value;
+	public void add (int value) {
+		
 	}
 	
 	/**
-	 * The subtract function will subtract the value from the total
-	 * @param value the number that it will subtract
+	 * 
+	 * @param value
 	 */
-	public void subtract (int value) 
-	{
-		total = total - value;
+	public void subtract (int value) {
+		
 	}
-	
+		
 	/**
 	 * 
 	 */
