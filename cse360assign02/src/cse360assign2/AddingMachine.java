@@ -9,12 +9,14 @@ package cse360assign2;
 public class AddingMachine {
 
 	private int total;
+	private String history;
 	
 	/**
 	 * 
 	 */
 	public AddingMachine () {
 		total = 0;  // not needed - included for clarity
+		history = "0";
 	}
 	
 	/**
@@ -33,6 +35,7 @@ public class AddingMachine {
 	public void add (int value) 
 	{
 		total = total + value;
+		history = history + " + " + Integer.toString(value);
 	}
 	
 	/**
@@ -42,13 +45,15 @@ public class AddingMachine {
 	public void subtract (int value) 
 	{
 		total = total - value;
+		history = history + " - " + Integer.toString(value);
 	}
 		
 	/**
 	 * 
+	 * @return
 	 */
 	public String toString () {
-		return "";
+		return history;
 	}
 	
 	/**
