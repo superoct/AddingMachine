@@ -60,7 +60,9 @@ public class AddingMachine {
 	/**
 	 * The clear method make a clear of the elements being added.
 	 */
-	public void clear() {
-	
+	public void clear() 
+	{
+		total = 0;
+		history = "0";
 	}
 }
